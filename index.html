@@ -1,1 +1,263 @@
-<h1>hola, probando probando</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>League of Legends – Página Principal</title>
+
+    <style>
+        body {
+            background-color:#141418;
+            color:white;
+            font-family:Arial;
+            line-height:1.6;
+            margin:25px;
+        }
+
+        h1 {
+            text-align:center;
+            color:#6ab7ff;
+        }
+
+        h2 {
+            margin-top:25px;
+            color:#9cd5ff;
+        }
+
+        h3 {
+            margin-top:15px;
+            color:#bfe4ff;
+        }
+
+        .box {
+            background-color:#1e1e24;
+            padding:20px;
+            border-radius:10px;
+            margin-bottom:25px;
+        }
+
+        nav a {
+            color:#66ccff;
+            margin-right:15px;
+            font-size:18px;
+        }
+
+        table {
+            margin-top:20px;
+            width:100%;
+            border-collapse:collapse;
+        }
+
+        th, td {
+            border:1px solid #555;
+            padding:10px;
+            text-align:center;
+        }
+
+        th {
+            background-color:#2d2d34;
+        }
+
+        footer {
+            text-align:center;
+            margin-top:40px;
+            color:#aaa;
+        }
+    </style>
+</head>
+
+<body>
+<audio id="musica-LOL" loop>
+    <source src="LOL.mp3" type="audio/mp3">
+</audio>
+
+<button onclick="document.getElementById('musica-LOL').play()">Reproducir música</button>
+<button onclick="document.getElementById('musica-LOL').pause()">Pausar música</button>
+
+
+<a id="top"></a>
+
+<h1>League of Legends – Página Principal</h1>
+
+<!-- Menú de navegación -->
+<nav>
+    <a href="top.html">TOP</a>
+    <a href="mid.html">MID</a>
+    <a href="jg.html">JUNGLA</a>
+    <a href="bot.html">BOTLANE</a>
+</nav>
+
+<hr style="border:1px solid #444; margin:20px 0;">
+
+<!-- INTRODUCCIÓN DEL LOL -->
+<div class="box">
+    <h2>¿Qué es League of Legends?</h2>
+
+    <p>
+        League of Legends, o simplemente LoL, es un juego competitivo tipo MOBA donde dos equipos de cinco jugadores se enfrentan 
+        con el objetivo de destruir el Nexo enemigo. Además de pelear, el juego requiere mucha estrategia, comunicación y decisiones 
+        rápidas. Cada jugador elige un campeón con habilidades únicas y ocupa un rol dentro del equipo.
+    </p>
+
+    <p>
+        LoL tiene más de 160 campeones, diferentes estilos de juego y una comunidad enorme en todo el mundo. Las partidas pasan por 
+        distintas etapas: early game, mid game y late game, cada una con objetivos diferentes como farmear, pelear dragones o ganar teamfights.
+    </p>
+
+    <p>
+        Además de ser muy popular, también es uno de los eSports más grandes del mundo. Tiene ligas profesionales, torneos regionales 
+        y un campeonato mundial que se transmite en todo el planeta. Lo mejor es que cualquier persona puede empezar desde cero 
+        y mejorar con el tiempo.
+    </p>
+</div>
+
+<!-- TABLA DE ROLES -->
+<div class="box">
+    <h2>Roles del juego</h2>
+
+    <table>
+        <tr>
+            <th>Rol</th>
+            <th>Dificultad</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>TOP</td>
+            <td>Media</td>
+            <td>Línea aislada, tanques o luchadores</td>
+        </tr>
+        <tr>
+            <td>MID</td>
+            <td>Alta</td>
+            <td>Daño, rotaciones y control del mapa</td>
+        </tr>
+        <tr>
+            <td>JUNGLA</td>
+            <td>Alta</td>
+            <td>Objetivos, visión y ganks</td>
+        </tr>
+        <tr>
+            <td>BOTLANE</td>
+            <td>Baja/Media</td>
+            <td>ADC para daño y Support para protección</td>
+        </tr>
+    </table>
+</div>
+
+<!-- MUNDIALES DE LOL -->
+<div class="box">
+    <h2>Mundiales de League of Legends (Worlds)</h2>
+
+    <p>
+        El Campeonato Mundial de LoL, conocido como <strong>Worlds</strong>, es el torneo más importante del juego. 
+        Se organiza todos los años desde 2011 y reúne a los mejores equipos de cada región del mundo como Corea, China, Europa y Norteamérica.
+    </p>
+
+    <p>
+        Worlds suele durar alrededor de un mes e incluye varias fases: Play-In, Fase de Grupos, Eliminatorias y la Gran Final.
+        Es uno de los eventos de eSports más vistos del mundo, alcanzando decenas de millones de espectadores en simultáneo.
+    </p>
+
+    <h3>Equipos más exitosos</h3>
+    <ul>
+        <li><strong>T1 (antes SK Telecom T1)</strong> – El equipo más ganador de la historia.</li>
+        <li><strong>Samsung Galaxy / Gen.G</strong> – Campeones coreanos muy reconocidos.</li>
+        <li><strong>Damwon Gaming</strong> – Dominantes en 2020.</li>
+        <li><strong>EDward Gaming (EDG)</strong> – Campeones chinos de 2021.</li>
+        <li><strong>DRX</strong> – Una de las mayores sorpresas, campeones 2022.</li>
+    </ul>
+
+    <h3>Campeones del mundo más recientes</h3>
+    <ul>
+        <li>2020 – Damwon Gaming</li>
+        <li>2021 – EDward Gaming</li>
+        <li>2022 – DRX</li>
+        <li>2023 – T1</li>
+    </ul>
+</div>
+
+<!-- MEJORES JUGADORES DE LA HISTORIA -->
+<div class="box">
+    <h2>Mejores jugadores de League of Legends</h2>
+
+    <p>A lo largo de los años, varios jugadores se volvieron leyendas por su nivel y logros. Algunos de los mejores son:</p>
+
+    <ul>
+        <li><strong>Faker (Corea)</strong> – Considerado el mejor jugador de la historia.</li>
+        <li><strong>Uzi (China)</strong> – Uno de los mejores ADC de todos los tiempos.</li>
+        <li><strong>Deft (Corea)</strong> – Campeón del mundo, muy respetado por su carrera.</li>
+        <li><strong>Caps (Europa)</strong> – El mejor mid europeo.</li>
+        <li><strong>TheShy (China/Corea)</strong> – Uno de los mejores toplaners del mundo.</li>
+    </ul>
+</div>
+
+<!-- SECCIÓN ESPECIAL: FAKER -->
+<div class="box">
+    <h2>Faker – El Mejor Jugador de la Historia</h2>
+
+       <div style="display:flex; align-items:center; gap:20px;">
+
+    <img src="sh.jpeg" width="200" style="border-radius:10px;">
+
+    <p>
+ Lee “Faker” Sang-hyeok es considerado por casi toda la comunidad como el mejor jugador de League of Legends de todos los tiempos. 
+        Nació en Corea del Sur en 1996 y debutó profesionalmente en 2013 en el equipo <strong>SK Telecom T1</strong>, hoy conocido como <strong>T1</strong>.
+</p>
+
+</div>
+
+    <h3>¿Por qué es considerado el mejor?</h3>
+    <ul>
+        <li>Ganó <strong>4 Campeonatos Mundiales</strong> (2013, 2015, 2016, 2023).</li>
+        <li>Es conocido como el “Rey Demonio Inmortal”.</li>
+        <li>Es experto en decenas de campeones y estilos de juego.</li>
+        <li>Se mantiene competitivo incluso después de más de 10 años.</li>
+        <li>Es reconocido por su disciplina, humildad y mentalidad ganadora.</li>
+    </ul>
+
+    <h3>Campeones por los que es famoso</h3>
+    <ul>
+        <li>Zed</li>
+        <li>LeBlanc</li>
+        <li>Ryze</li>
+        <li>Orianna</li>
+        <li>Galio</li>
+        <li>Azir</li>
+  
+<table>
+    <tr>
+        <td><img src="zed.jpg" width="200" style="border-radius:10px;"></td>
+        <td><img src="leblanc.jpg" width="200" style="border-radius:10px;"></td>
+        <td><img src="azir.jpg" width="200" style="border-radius:10px;"></td>
+    </tr>
+    <tr>
+        <td><img src="orianna.jpeg" width="200" style="border-radius:10px;"></td>
+        <td><img src="ryze.jpg" width="200" style="border-radius:10px;"></td>
+        <td><img src="galio.jpg" width="200" style="border-radius:10px;"></td>
+    </tr>
+</table>
+
+
+    <h3>Logros más importantes</h3>
+    <ul>
+        <li>4 veces campeón del mundo (récord absoluto).</li>
+        <li>2 veces campeón del MSI.</li>
+        <li>Múltiples títulos de la liga coreana (LCK).</li>
+        <li>Considerado el mejor mid laner de la historia.</li>
+    </ul>
+
+    <p>
+        Faker no solo es un jugador increíble, también es una figura histórica en los esports. Millones de personas en todo el 
+        mundo lo consideran una leyenda viva y un ejemplo de dedicación. Es el rostro del League of Legends competitivo.
+    </p>
+</div>
+
+<p style="text-align:center;">
+    <a href="#top" style="color:#66ccff;">Volver arriba</a>
+</p>
+
+<footer>
+    Página creada por Matías – Proyecto HTML 6to año
+</footer>
+
+</body>
+</html>
